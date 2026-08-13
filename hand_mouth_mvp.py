@@ -100,7 +100,7 @@ def main():
                         help="0 for webcam, or RTSP URL / video file path")
     parser.add_argument("--headless", action="store_true")
 
-    parser.add_argument("--dist-threshold", type=float, default=0.32)
+    parser.add_argument("--dist-threshold", type=float, default=0.45)
     parser.add_argument("--confirm-frames", type=int, default=5)
     parser.add_argument("--cooldown", type=float, default=5.0)
 
